@@ -61,8 +61,8 @@ Step 5: Attaching Power Supply
 
 Step 6: Preparing the Petri Dish
 
-![step 6.1](./Images/prepare petri dish.jpg)
-![step 6.2](./Images/preparing petri.jpg)
+![step 6.1](./Images/prepare_petri_dish.jpg)
+![step 6.2](./Images/preparing_petri.jpg)
 
         Take the bottom of the petri dish, and cover the edges with masking tape. 
         Lay it on a piece of newspaper with the bottom facing upwards, and spray paint the back of the dish black. 
@@ -73,11 +73,11 @@ Step 6: Preparing the Petri Dish
 
 Step 7: Cutting and Gluing Chamois Cloth Onto Petri Dish
 
-![chamois cloth](./Images/chamois 1.jpg)
+![chamois cloth](./Images/chamois_1.jpg)
 ![chamois cloth](./Images/chamois2.jpg)
-![chamois cloth](./Images/chamois 3.jpg)
-![chamois cloth](./Images/chmois 4.jpg)
-![chamois cloth](./Images/chamois 5.jpg)
+![chamois cloth](./Images/chamois_3.jpg)
+![chamois cloth](./Images/chmois_4.jpg)
+![chamois cloth](./Images/chamois_5.jpg)
 
         Use the bottom of the petri dish to cut a circle of chamois cloth (it should be just under 3 and 1/2 inches in diameter). 
         Then you'll need to draw another circle inside. Use something circular to trace a smaller circle that is about 2 and a half inches in diameter (Ex. Roll of tape). 
@@ -102,8 +102,8 @@ Step 8: Mounting the D6SEC Fan
 
 Step 9: Converting the Power Supply
 
-![wire coloring](./Images/Screenshot 2025-10-20 at 4.35.55 PM.png)
-![wire labling](./Images/Converting power supply(1))
+![wire coloring](./Images/Screenshot_2025-10-20_at_4.35.55_PM.png)
+![wire labling](./Images/Converting_power_supply(1))
 
         ⚠️ Electrical Safety
             Always unplug the power supply before modifying any wiring.
@@ -128,8 +128,8 @@ Step 9: Converting the Power Supply
 
 Step 10: Connecting/Soldering Wires Together
 
-![Wire Setup](./Images/Soldering setup.jpg)
-![Wire Soldring](./Images/Soldering .jpg)
+![Wire Setup](./Images/Soldering_setup.jpg)
+![Wire Soldring](./Images/Soldering_.jpg)
 
         ⚠️ Soldering Safety:
             Work in a well-ventilated area.
@@ -163,7 +163,7 @@ Step 10: Connecting/Soldering Wires Together
 
 Step 11: Connect Hyper 212 RGB to Power Supply
 
-![Wire Setup](./Images/Screenshot 2025-10-20 at 4.38.48 PM.png)
+![Wire Setup](./Images/Screenshot_2025-10-20_at_4.38.48_PM.png)
 
 Take a photo of the wiring of the fan!!!!
 
@@ -183,8 +183,8 @@ Take a photo of the wiring of the fan!!!!
 
 Step 12: Testing Peltiers
 
-![Peltire set up](./Images/Peltire testing.jpg)
-![Peltire testing](./Images/Peltier testing 2.jpg)
+![Peltire set up](./Images/Peltire_testing.jpg)
+![Peltire testing](./Images/Peltier_testing_2.jpg)
 
         A Peltier is a small device containing semiconductors transferring heat from one side to the other. 
         The thermal paste is made of conductive materials, improving the connection between the Peltier, fan, and petri dish, allowing heat transfer to occur more efficiently. 
@@ -240,8 +240,8 @@ Step 13: Connect Peltiers
 
 Step 14: Attach 3D Printed LED Holder
 
-![holder setup](./Images/LED Holder.jpg)
-![underside of holder](./Images/attach holder.jpg)
+![holder setup](./Images/LED_Holder.jpg)
+![underside of holder](./Images/attach_holder.jpg)
         
         Position the LED Holder so that the two slits coming out of the square are aligned with the wires of the stacked peltiers. The wires should be facing you. 
         Use the #6-32 x 1 in screws, #6 washers, and nuts to secure the LED Holder into the brackets you attached to the Hyper 212 RGB fan earlier.
@@ -289,8 +289,8 @@ Step 16: Connect LEDs
 
 Step 17: Adding the Petri Dish
 
-![Adding thermal paste](./Images/Screenshot 2025-10-20 at 4.57.51 PM.png)
-![Thermal paste smoothed out](./Images/Screenshot 2025-10-20 at 4.58.11 PM.png)
+![Adding thermal paste](./Images/Screenshot_2025-10-20_at_4.57.51_PM.png)
+![Thermal paste smoothed out](./Images/Screenshot_2025-10-20_at_4.58.11_PM.png)
 
         Put a more generous amount, double the amount you put before, but still an even layer of thermal paste on top of the 12709 Peltier.
         Press the back part of the petri dish against the top of the Peltier. 
@@ -321,7 +321,7 @@ Step 17: Adding the Petri Dish
 
 Step 18: Testing Your Cloud Chamber!
 
-![holder setup](./Images/cloud cover.jpg)
+![holder setup](./Images/cloud_cover.jpg)
 
         ⚠️ Radioactive Source Safety
             Use only low-activity educational radioactive sources.
@@ -348,4 +348,4 @@ Step 19: Throw a party!!
                 Physics is awesome!!! 🎉
 
 
-[def]: 2026/Images/filenameframe1.jpg
+
