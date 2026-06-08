@@ -74,10 +74,12 @@ Step 6: Preparing the Petri Dish
 Step 7: Cutting and Gluing Chamois Cloth Onto Petri Dish
 
 ![chamois cloth](./Images/chamois_1.jpg)
-![chamois cloth](./Images/chamois2.jpg)
-![chamois cloth](./Images/chamois_3.jpg)
-![chamois cloth](./Images/chmois_4.jpg)
 ![chamois cloth](./Images/chamois_5.jpg)
+![chamois cloth](./Images/chamois2.jpg)
+![chamois cloth](./Images/chmois_4.jpg)
+![chamois cloth](./Images/chamois_3.jpg)
+
+
 
         Use the bottom of the petri dish to cut a circle of chamois cloth (it should be just under 3 and 1/2 inches in diameter). 
         Then you'll need to draw another circle inside. Use something circular to trace a smaller circle that is about 2 and a half inches in diameter (Ex. Roll of tape). 
@@ -103,7 +105,7 @@ Step 8: Mounting the D6SEC Fan
 Step 9: Converting the Power Supply
 
 ![wire coloring](./Images/Screenshot_2025-10-20_at_4.35.55_PM.png)
-![wire labling](./Images/Converting_power_supply(1))
+![wire labling](./Images/Converting_power_supply.jpg)
 
         ⚠️ Electrical Safety
             Always unplug the power supply before modifying any wiring.
@@ -183,7 +185,7 @@ Take a photo of the wiring of the fan!!!!
 
 Step 12: Testing Peltiers
 
-![Peltire set up](./Images/Peltire_testing.jpg)
+![Peltire set up](./Images/Peltier_testing.jpg)
 ![Peltire testing](./Images/Peltier_testing_2.jpg)
 
         A Peltier is a small device containing semiconductors transferring heat from one side to the other. 
