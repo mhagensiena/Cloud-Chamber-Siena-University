@@ -61,7 +61,8 @@ Step 5: Attaching Power Supply
 
 Step 6: Preparing the Petri Dish
 
-(Link to images)
+![step 6.1](./Images/prepare petri dish.jpg)
+![step 6.2](./Images/preparing petri.jpg)
 
         Take the bottom of the petri dish, and cover the edges with masking tape. 
         Lay it on a piece of newspaper with the bottom facing upwards, and spray paint the back of the dish black. 
@@ -101,7 +102,8 @@ Step 8: Mounting the D6SEC Fan
 
 Step 9: Converting the Power Supply
 
-(Link to images)
+![wire coloring](./Images/Screenshot 2025-10-20 at 4.35.55 PM.png)
+![wire labling](./Images/Converting power supply(1))
 
         ⚠️ Electrical Safety
             Always unplug the power supply before modifying any wiring.
@@ -126,7 +128,8 @@ Step 9: Converting the Power Supply
 
 Step 10: Connecting/Soldering Wires Together
 
-(Link to images)
+![Wire Setup](./Images/Soldering setup.jpg)
+![Wire Soldring](./Images/Soldering .jpg)
 
         ⚠️ Soldering Safety:
             Work in a well-ventilated area.
@@ -160,7 +163,9 @@ Step 10: Connecting/Soldering Wires Together
 
 Step 11: Connect Hyper 212 RGB to Power Supply
 
-(Link to images)
+![Wire Setup](./Images/Screenshot 2025-10-20 at 4.38.48 PM.png)
+
+Take a photo of the wiring of the fan!!!!
 
         Find Black Wire 1 and Yellow Wire 1, and one spare, thinner wire, and the wires you soldered together. 
         Strip the two thin wires 1/2 of an inch on one end and 1 inch on the other.
@@ -178,7 +183,8 @@ Step 11: Connect Hyper 212 RGB to Power Supply
 
 Step 12: Testing Peltiers
 
-(Link to images)
+![Peltire set up](./Images/Peltire testing.jpg)
+![Peltire testing](./Images/Peltier testing 2.jpg)
 
         A Peltier is a small device containing semiconductors transferring heat from one side to the other. 
         The thermal paste is made of conductive materials, improving the connection between the Peltier, fan, and petri dish, allowing heat transfer to occur more efficiently. 
@@ -234,7 +240,8 @@ Step 13: Connect Peltiers
 
 Step 14: Attach 3D Printed LED Holder
 
-(link to image)
+![holder setup](./Images/LED Holder.jpg)
+![underside of holder](./Images/attach holder.jpg)
         
         Position the LED Holder so that the two slits coming out of the square are aligned with the wires of the stacked peltiers. The wires should be facing you. 
         Use the #6-32 x 1 in screws, #6 washers, and nuts to secure the LED Holder into the brackets you attached to the Hyper 212 RGB fan earlier.
@@ -243,7 +250,7 @@ Step 14: Attach 3D Printed LED Holder
 
 Step 15: Add Insulation
 
-(Link to image)
+![Insulation](./Images/insulation.jpg)
 
         Foam Cutting Technique: https://youtu.be/lmnCYfHl4e4?si=lr3nFRUbo9v8UpsO 
         
@@ -282,7 +289,8 @@ Step 16: Connect LEDs
 
 Step 17: Adding the Petri Dish
 
-(link to image)
+![Adding thermal paste](./Images/Screenshot 2025-10-20 at 4.57.51 PM.png)
+![Thermal paste smoothed out](./Images/Screenshot 2025-10-20 at 4.58.11 PM.png)
 
         Put a more generous amount, double the amount you put before, but still an even layer of thermal paste on top of the 12709 Peltier.
         Press the back part of the petri dish against the top of the Peltier. 
@@ -313,7 +321,7 @@ Step 17: Adding the Petri Dish
 
 Step 18: Testing Your Cloud Chamber!
 
-(Link to image)
+![holder setup](./Images/cloud cover.jpg)
 
         ⚠️ Radioactive Source Safety
             Use only low-activity educational radioactive sources.
