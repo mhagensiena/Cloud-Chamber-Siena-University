@@ -26,7 +26,8 @@ Step-by-Step Guide for Assembling and Testing Siena University's 2026 Cloud Cham
   <a href="#step16">Step 16</a> •
   <a href="#step17">Step 17</a> •
   <a href="#step18">Step 18</a> •
-  <a href="#step19">Step 19</a>
+  <a href="#step19">Step 19</a> •
+  <a href="./Troubleshooting.md">🔧 Troubleshooting</a>
 </p>
 
 
@@ -237,7 +238,7 @@ Step-by-Step Guide for Assembling and Testing Siena University's 2026 Cloud Cham
   <img src="./Images/Converting_power_supply.jpg" width="700">
 </p>
 
-        ⚠️ Electrical Safety
+        > [!WARNING] Electrical Safety
             Always unplug the power supply before modifying any wiring.
             Double-check all wire connections before powering on.
             Never allow exposed wires to touch each other.
@@ -275,14 +276,14 @@ Step-by-Step Guide for Assembling and Testing Siena University's 2026 Cloud Cham
   <img src="./Images/Soldering_.jpg" width="700">
 </p>
 
-   ### ⚠️ Soldering Safety:
+   > [!WARNING] Soldering Safety:
             Work in a well-ventilated area.
             Keep the hot soldering iron away from wires, clothing, and skin.
             Allow solder joints to cool before handling them.
             Always place the soldering iron back in its stand when not in use.
             Wear safety glasses if available.
     
-        WARNING!: It's really important to do this part correctly, otherwise the power supply will not turn on, or you could brick the power supply.
+       > [!WARNING]: It's really important to do this part correctly, otherwise the power supply will not turn on, or you could brick the power supply.
         Strip the ends of Black Wire 2 and Green Wire 1. Solder the ends of Black wire 2 and Green wire 1 together. Wrap this connection with electrical tape.
         If you've never soldered wires together, not to worry! Use this link for an example.
         https://youtube.com/shorts/2N6uXyUPfgA?feature=shared
@@ -380,7 +381,7 @@ Take a photo of the wiring of the fan!!!!
 <h2 id="step13" align="center">Step 13: Connect Peltiers
 </h2>
 
-        ⚠️ Thermal Paste Application
+        > [!WARNING] Thermal Paste Application
             The amount and quality of thermal paste application can greatly affect cloud chamber performance.
             Apply a thin, even layer.
             Too little thermal paste will reduce heat transfer.
@@ -535,7 +536,7 @@ Take a photo of the wiring of the fan!!!!
   <img src="./Images/cloud_cover.jpg" width="700">
 </p>
 
-        ⚠️ Radioactive Source Safety
+        > [!WARNING] Radioactive Source Safety
             Use only low-activity educational radioactive sources.
             Store radioactive sources properly when not in use.
             Avoid unnecessary handling.
@@ -565,5 +566,8 @@ Take a photo of the wiring of the fan!!!!
 
                 Physics is awesome!!! 🎉
 
+<p align="center">
+  <a href="./Troubleshooting.md">🔧 Troubleshooting Guide</a>
+</p>
 
 
