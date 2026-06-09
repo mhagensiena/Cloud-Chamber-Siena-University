@@ -1,4 +1,32 @@
-<h1 align="center">Instructions</h1>
+<h1 align="center"> step-by-step guide for assembling and testing Siena University 2026 Cloud Chamber.</h1>
+
+<h2 align="center">Quick Navigation</h2>
+
+<p align="center">
+  <a href="#step1">Step 1</a> •
+  <a href="#step2">Step 2</a> •
+  <a href="#step3">Step 3</a> •
+  <a href="#step4">Step 4</a> •
+  <a href="#step5">Step 5</a> •
+  <a href="#step6">Step 6</a> •
+  <a href="#step7">Step 7</a> •
+  <a href="#step8">Step 8</a> •
+  <a href="#step9">Step 9</a> •
+  <a href="#step10">Step 10</a>
+</p>
+
+<p align="center">
+  <a href="#step11">Step 11</a> •
+  <a href="#step12">Step 12</a> •
+  <a href="#step13">Step 13</a> •
+  <a href="#step14">Step 14</a> •
+  <a href="#step15">Step 15</a> •
+  <a href="#step16">Step 16</a> •
+  <a href="#step17">Step 17</a> •
+  <a href="#step18">Step 18</a> •
+  <a href="#step19">Step 19</a>
+</p>
+
 
 <h2 align="center">Step 1: Preparing the Wood for Cutting</h2>
         The first step is to create the base of the cloud chamber. 
