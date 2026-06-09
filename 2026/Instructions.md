@@ -1,4 +1,6 @@
-<h1 align="center"> step-by-step guide for assembling and testing Siena University 2026 Cloud Chamber.</h1>
+<h1 id="top" align="center">
+Step-by-Step Guide for Assembling and Testing Siena University's 2026 Cloud Chamber
+</h1>
 
 <h2 align="center">Quick Navigation</h2>
 
@@ -34,6 +36,10 @@
         This base can be slightly larger, but it is not recommended as the size listed keeps the cloud chamber portable, yet large enough for all the parts.
         You can use any kind of wood, but 1/2" thick plywood is recommended. 
         Once the wood is cut, feel free to add any stain, paint, or aesthetic changes to the wood you like!!!
+
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
 <h2 id="step2" align="center">Step 2: Placing Edging Around the Board (Optional, but Recommended!)
 </h2>
@@ -74,6 +80,11 @@
         Once your four pieces are cut, clamp down the edging and use a saw to cut them down to the desired size. 
         Then use wood glue on the inside and clamp the edges to the board to dry for an hour (or multiple hours if needed).
 
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
+
+
 <h2 id="step3" align="center">Step 3: Marking Holes to Drill and Adding Adjustable Feet
 </h2>
 
@@ -92,6 +103,9 @@
         Then, use a hammer to slide it in all the way and screw the feet into the glide socket. 
         Make sure all four feet are screwed in the same amount, so the board stands straight. Adjust the feet as needed for an even surface. 
 
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
 <h2 id="step4" align="center">Step 4: Attach 3D Parts and Handles
 </h2>
@@ -104,6 +118,10 @@
         Then you can use a drill or drill press with a 1/4" drill bit and drill holes at each marked spot.
         Take the #8 x 3/4 inch wood screws and screws in the 3D printed holders for the Hyper 212 RGB fan and the 500 W power supply in the board.
         Optional: Grab the black handles and place one on each side of the board. Mark where the screws would be, drill in the holes, and then screw the handles onto the board.
+
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
 <h2 id="step5" align="center">Step 5: Attaching Power Supply
 </h2>
@@ -118,6 +136,9 @@
         Use the picture for more reference. Take the 3D printed lid and position it so that the triangles on the lid align with the extrusions on the mount. 
         Once they are aligned, you can slide the lid (direction away from you) onto the mount until it clicks. It is helpful to hold the arms of the power supply holder and use your thumb to push the lid on.
 
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
 <h2 id="step6" align="center">Step 6: Preparing the Petri Dish
 </h2>
@@ -138,6 +159,10 @@
         Let it dry for at least an hour (or the recommended time on the can) and then peel the masking tape off. 
         For certain radioactive sources that extend past the width of the petri dish, it is necessary to add a hole to the side of the petri dish.
         To do this, we use a soldering iron and melt through the plastic of a petri dish. Make sure to start with a small hole and slowly increase the diameter!
+
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
 <h2 id="step7" align="center">Step 7: Cutting and Gluing Chamois Cloth Onto Petri Dish
 </h2>
@@ -181,6 +206,10 @@
         The tape is used to cover the cloth for a cleaner design. 
         It is recommended to make a hexagon around the edges, ensuring that there is a clear viewing space in the center. 
 
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
+
 <h2 align="center">Step 8: Mounting the D6SEC Fan
 </h2>
 
@@ -191,6 +220,9 @@
         Very carefully place the fan into the 3D printed mount with the screws coming out of the slits in the mount, then secure the fan into the mount by screwing the wing nuts onto the screws. 
         With the power supply and the fan mounted, your cloud chamber should look like the photo above so far.
 
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
 <h2 id="step9" align="center">Step 9: Converting the Power Supply
 </h2>
@@ -225,6 +257,10 @@
         Do not cut the extra wires until the cloud chamber is completely assembled, just in case you make a mistake and need to use different wires.
         It doesn't matter which black or yellow wires you use; they carry the same voltage.
         
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
+
 
 <h2 id="step10" align="center">Step 2:Step 10: Connecting/Soldering Wires Together
 </h2>
@@ -269,6 +305,9 @@
             ☐ The solder joint between Black Wire 2 and Green Wire 1 is fully covered with electrical tape.
         If all boxes are checked, continue to the next step.
 
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
 <h2 id="step11" align="center">Step 11: Connect Hyper 212 RGB to Power Supply
 </h2>
@@ -293,6 +332,9 @@ Take a photo of the wiring of the fan!!!!
             ☐ Lever nuts are fully closed and secure.
         If all boxes are checked, continue to the next step.
 
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
 <h2 id="step12" align="center">Step 12: Testing Peltiers
 </h2>
@@ -331,6 +373,10 @@ Take a photo of the wiring of the fan!!!!
         If all boxes are checked, continue to the next step.
 
 
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
+
 <h2 id="step13" align="center">Step 13: Connect Peltiers
 </h2>
 
@@ -361,7 +407,9 @@ Take a photo of the wiring of the fan!!!!
             If all boxes are checked, continue to the next step.
 
 
-
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
 <h2 id="step14" align="center">Step 14: Attach 3D Printed LED Holder
 </h2>
@@ -380,6 +428,9 @@ Take a photo of the wiring of the fan!!!!
         Use the #6-32 x 1 in screws, #6 washers, and nuts to secure the LED Holder into the brackets you attached to the Hyper 212 RGB fan earlier.
         Use the pictures for reference.
 
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
 <h2 id="step15" align="center">Step 15: Add Insulation
 </h2>
@@ -396,7 +447,11 @@ Take a photo of the wiring of the fan!!!!
         Tip: Cut a piece slightly larger than what you measured, so that you can shave down the foam piece to the perfect size, little by little if needed.
         It is important that the foam pieces are not loose at all.
         Carefully push the foam between the holder and the peltiers until the holder, peltiers, and foam are level.
-        
+
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
+  
 <h2 id="step16" align="center">Step 16: Connect LEDs
 </h2>        
 
@@ -425,6 +480,10 @@ Take a photo of the wiring of the fan!!!!
             ☐ No exposed wiring is visible.
             If all boxes are checked, continue to the next step.
 
+
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
 <h2 id="step17" align="center">Step 17: Adding the Petri Dish
 </h2>
@@ -463,8 +522,12 @@ Take a photo of the wiring of the fan!!!!
                 ☐ All tools have been removed from the workspace
                 ☐ You are ready to power on the cloud chamber
             If every box is checked, proceed to Step 18.
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
-<h2 id="step19" align="center">Step 18: Testing Your Cloud Chamber!
+
+<h2 id="step18" align="center">Step 18: Testing Your Cloud Chamber!
 </h2>
 
 
@@ -485,6 +548,9 @@ Take a photo of the wiring of the fan!!!!
         Wait a little bit, and you should start seeing mist, and then particle tracks!!!!
         Make sure that if you lift the petri dish off the Peltier, you scrape the excess thermal paste off the dish and the Peltier, and even out the thermal paste before putting the petri dish back on.
 
+<p align="center">
+<a href="#top">⬆ Back to Top</a>
+</p>
 
 <h2 id="step19" align="center">Step 19: Throw a party!!
 </h2>
