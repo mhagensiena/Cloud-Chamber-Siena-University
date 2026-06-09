@@ -74,9 +74,13 @@ Step 6: Preparing the Petri Dish
 Step 7: Cutting and Gluing Chamois Cloth Onto Petri Dish
 
 ![chamois cloth](./Images/chamois_1.jpg)
+
 ![chamois cloth](./Images/chmois_4.jpg)
+
 ![chamois cloth](./Images/chamois_3.jpg)
+
 ![chamois cloth](./Images/chamois2.jpg)
+
 ![chamois cloth](./Images/chamois_5.jpg)
 
 
