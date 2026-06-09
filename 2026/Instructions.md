@@ -1,17 +1,39 @@
-Step 1: Preparing the Wood for Cutting
+<h1 align="center">Instructions</h1>
+
+<h2 align="center">Step 1: Preparing the Wood for Cutting</h2>
         The first step is to create the base of the cloud chamber. 
         Cut a piece of wood that is 16" x 11". 
         This base can be slightly larger, but it is not recommended as the size listed keeps the cloud chamber portable, yet large enough for all the parts.
         You can use any kind of wood, but 1/2" thick plywood is recommended. 
         Once the wood is cut, feel free to add any stain, paint, or aesthetic changes to the wood you like!!!
 
-Step 2: Placing Edging Around the Board (Optional, but Recommended!)
+<h2 align="center">Step 2: Placing Edging Around the Board (Optional, but Recommended!)
+</h2>
 
-![step 2.1](./Images/frame1.jpg)
-![Step 2.2](./Images/frame2.jpg)
-![Step 2.3](./Images/frame4.webp)
-![Step 2.4](./Images/frame3.webp)
-![Step 2.5](./Images/frame5.webp)
+
+<p align="center">
+  <img src="./Images/frame1.jpg" width="700">
+</p>
+
+
+<p align="center">
+  <img src="./Images/frame2.jpg" width="700">
+</p>
+
+
+<p align="center">
+  <img src="./Images/frame4.webp" width="700">
+</p>
+
+
+<p align="center">
+  <img src="./Images/frame3.webp" width="700">
+</p>
+
+
+<p align="center">
+  <img src="./Images/frame5.webp" width="700">
+</p>
 
 
         How to cut fitted edges: https://youtube.com/shorts/_VOCZlvugyg?feature=shared
@@ -24,11 +46,16 @@ Step 2: Placing Edging Around the Board (Optional, but Recommended!)
         Once your four pieces are cut, clamp down the edging and use a saw to cut them down to the desired size. 
         Then use wood glue on the inside and clamp the edges to the board to dry for an hour (or multiple hours if needed).
 
+<h2 align="center">Step 3: Marking Holes to Drill and Adding Adjustable Feet
+</h2>
 
-Step 3: Marking Holes to Drill and Adding Adjustable Feet
+<p align="center">
+  <img src="./Images/base1.webp" width="700">
+</p>
 
-![step 3.1](./Images/base1.webp)
-![step 3.2](./Images/base2.webp)
+<p align="center">
+  <img src="./Images/base2.webp" width="700">
+</p>
 
         To attach the adjustable feet to the cloud chamber, measure an inch away horizontally and vertically at each corner of the board.
         Then mark those points. The label on the adjustable feet should include the kind of drill bit needed to secure the feet into the board. 
@@ -38,31 +65,45 @@ Step 3: Marking Holes to Drill and Adding Adjustable Feet
         Make sure all four feet are screwed in the same amount, so the board stands straight. Adjust the feet as needed for an even surface. 
 
 
-
-Step 4: Attach 3D Parts and Handles
-
-![step 4.0](./Images/step4.webp)
+<h2 align="center">Step 4: Attach 3D Parts and Handles
+</h2>
+ 
+<p align="center">
+  <img src="./Images/step4.webp" width="700">
+</p>
 
         To attach the 3D parts into the base, first place them on the wood and mark the places where the screws would be. 
         Then you can use a drill or drill press with a 1/4" drill bit and drill holes at each marked spot.
         Take the #8 x 3/4 inch wood screws and screws in the 3D printed holders for the Hyper 212 RGB fan and the 500 W power supply in the board.
         Optional: Grab the black handles and place one on each side of the board. Mark where the screws would be, drill in the holes, and then screw the handles onto the board.
 
+<h2 align="center">Step 5: Attaching Power Supply
+</h2>
 
-Step 5: Attaching Power Supply
 
-![step 3.2](./Images/step5.webp)
+
+<p align="center">
+  <img src="./Images/step5.webp" width="700">
+</p>
 
         To secure the power supply onto the board, slide the power supply into the holder with the pin connectors facing the part of the holder that has a gap. 
         Use the picture for more reference. Take the 3D printed lid and position it so that the triangles on the lid align with the extrusions on the mount. 
         Once they are aligned, you can slide the lid (direction away from you) onto the mount until it clicks. It is helpful to hold the arms of the power supply holder and use your thumb to push the lid on.
 
 
+<h2 align="center">Step 6: Preparing the Petri Dish
+</h2>
 
-Step 6: Preparing the Petri Dish
 
-![step 6.1](./Images/prepare_petri_dish.jpg)
-![step 6.2](./Images/preparing_petri.jpg)
+<p align="center">
+  <img src="./Images/prepare_petri_dish.jpg" width="700">
+</p>
+
+
+
+<p align="center">
+  <img src="./Images/preparing_petri.jpg" width="700">
+</p>
 
         Take the bottom of the petri dish, and cover the edges with masking tape. 
         Lay it on a piece of newspaper with the bottom facing upwards, and spray paint the back of the dish black. 
@@ -70,22 +111,34 @@ Step 6: Preparing the Petri Dish
         For certain radioactive sources that extend past the width of the petri dish, it is necessary to add a hole to the side of the petri dish.
         To do this, we use a soldering iron and melt through the plastic of a petri dish. Make sure to start with a small hole and slowly increase the diameter!
 
-
-Step 7: Cutting and Gluing Chamois Cloth Onto Petri Dish
-
-![chamois cloth](./Images/chamois_1.jpg | width="20px")
-
-<img src="./Images/chamois_1.jpg " width="100" height="100">
+<h2 align="center">Step 7: Cutting and Gluing Chamois Cloth Onto Petri Dish
+</h2>
 
 
-![chamois cloth](./Images/chmois_4.jpg)
 
-![chamois cloth](./Images/chamois_3.jpg)
+<p align="center">
+  <img src="./Images/chamois_1.jpg" width="700">
+</p>
 
-![chamois cloth](./Images/chamois2.jpg)
 
-![chamois cloth](./Images/chamois_5.jpg)
+<p align="center">
+  <img src="./Images/chmois_4.jpg" width="700">
+</p>
 
+
+<p align="center">
+  <img src="./Images/chamois_3.jpg" width="700">
+</p>
+
+
+<p align="center">
+  <img src="./Images/chamois_5.jpg" width="700">
+</p>
+
+
+<p align="center">
+  <img src="./Images/chamois2.jpg" width="700">
+</p>
 
 
 
@@ -100,7 +153,9 @@ Step 7: Cutting and Gluing Chamois Cloth Onto Petri Dish
         The tape is used to cover the cloth for a cleaner design. 
         It is recommended to make a hexagon around the edges, ensuring that there is a clear viewing space in the center. 
 
-Step 8: Mounting the D6SEC Fan
+<h2 align="center">Step 8: Mounting the D6SEC Fan
+</h2>
+
 
 (link ot images)
 
@@ -109,11 +164,18 @@ Step 8: Mounting the D6SEC Fan
         With the power supply and the fan mounted, your cloud chamber should look like the photo above so far.
 
 
+<h2 align="center">Step 9: Converting the Power Supply
+</h2>
 
-Step 9: Converting the Power Supply
 
-![wire coloring](./Images/Screenshot_2025-10-20_at_4.35.55_PM.png)
-![wire labling](./Images/Converting_power_supply.jpg)
+<p align="center">
+  <img src="./Images/Screenshot_2025-10-20_at_4.35.55_PM.png" width="700">
+</p>
+
+
+<p align="center">
+  <img src="./Images/Converting_power_supply.jpg" width="700">
+</p>
 
         ⚠️ Electrical Safety
             Always unplug the power supply before modifying any wiring.
@@ -136,12 +198,20 @@ Step 9: Converting the Power Supply
         It doesn't matter which black or yellow wires you use; they carry the same voltage.
         
 
-Step 10: Connecting/Soldering Wires Together
+<h2 align="center">Step 2:Step 10: Connecting/Soldering Wires Together
+</h2>
 
-![Wire Setup](./Images/Soldering_setup.jpg)
-![Wire Soldring](./Images/Soldering_.jpg)
 
-        ⚠️ Soldering Safety:
+<p align="center">
+  <img src="./Images/Soldering_setup.jpg" width="700">
+</p>
+
+
+<p align="center">
+  <img src="./Images/Soldering_.jpg" width="700">
+</p>
+
+   ### ⚠️ Soldering Safety:
             Work in a well-ventilated area.
             Keep the hot soldering iron away from wires, clothing, and skin.
             Allow solder joints to cool before handling them.
@@ -171,9 +241,13 @@ Step 10: Connecting/Soldering Wires Together
             ☐ The solder joint between Black Wire 2 and Green Wire 1 is fully covered with electrical tape.
         If all boxes are checked, continue to the next step.
 
-Step 11: Connect Hyper 212 RGB to Power Supply
 
-![Wire Setup](./Images/Screenshot_2025-10-20_at_4.38.48_PM.png)
+<h2 align="center">Step 11: Connect Hyper 212 RGB to Power Supply
+</h2>
+
+<p align="center">
+  <img src="./Images/Screenshot_2025-10-20_at_4.38.48_PM.png" width="700">
+</p>
 
 Take a photo of the wiring of the fan!!!!
 
@@ -191,10 +265,19 @@ Take a photo of the wiring of the fan!!!!
             ☐ Lever nuts are fully closed and secure.
         If all boxes are checked, continue to the next step.
 
-Step 12: Testing Peltiers
 
-![Peltire set up](./Images/Peltier_testing.jpg)
-![Peltire testing](./Images/Peltier_testing_2.jpg)
+<h2 align="center">Step 12: Testing Peltiers
+</h2>
+ 
+
+<p align="center">
+  <img src="./Images/Peltier_testing.jpg" width="700">
+</p>
+
+
+<p align="center">
+  <img src="./Images/Peltier_testing_2.jpg" width="700">
+</p>
 
         A Peltier is a small device containing semiconductors transferring heat from one side to the other. 
         The thermal paste is made of conductive materials, improving the connection between the Peltier, fan, and petri dish, allowing heat transfer to occur more efficiently. 
@@ -219,7 +302,10 @@ Step 12: Testing Peltiers
             ☐ No damage is visible on either Peltier.
         If all boxes are checked, continue to the next step.
 
-Step 13: Connect Peltiers
+
+<h2 align="center">Step 13: Connect Peltiers
+</h2>
+
         ⚠️ Thermal Paste Application
             The amount and quality of thermal paste application can greatly affect cloud chamber performance.
             Apply a thin, even layer.
@@ -248,19 +334,32 @@ Step 13: Connect Peltiers
 
 
 
-Step 14: Attach 3D Printed LED Holder
 
-![holder setup](./Images/LED_Holder.jpg)
-![underside of holder](./Images/attach_holder.jpg)
+<h2 align="center">Step 14: Attach 3D Printed LED Holder
+</h2>
+
+
+<p align="center">
+  <img src="./Images/LED_Holder.jpg" width="700">
+</p>
+
+
+<p align="center">
+  <img src="./Images/attach_holder.jpg" width="700">
+</p>
         
         Position the LED Holder so that the two slits coming out of the square are aligned with the wires of the stacked peltiers. The wires should be facing you. 
         Use the #6-32 x 1 in screws, #6 washers, and nuts to secure the LED Holder into the brackets you attached to the Hyper 212 RGB fan earlier.
         Use the pictures for reference.
 
 
-Step 15: Add Insulation
+<h2 align="center">Step 15: Add Insulation
+</h2>
+ 
 
-![Insulation](./Images/insulation.jpg)
+<p align="center">
+  <img src="./Images/insulation.jpg" width="700">
+</p>
 
         Foam Cutting Technique: https://youtu.be/lmnCYfHl4e4?si=lr3nFRUbo9v8UpsO 
         
@@ -270,8 +369,9 @@ Step 15: Add Insulation
         It is important that the foam pieces are not loose at all.
         Carefully push the foam between the holder and the peltiers until the holder, peltiers, and foam are level.
         
-        
-Step 16: Connect LEDs
+<h2 align="center">Step 16: Connect LEDs
+</h2>        
+
       
         Take the LED Strip lights and cut them to 16" or at a point that is relatively that size, where it is instructed for you to cut.
         Slide the end of the LED strip lights into the connector. 
@@ -297,10 +397,18 @@ Step 16: Connect LEDs
             ☐ No exposed wiring is visible.
             If all boxes are checked, continue to the next step.
 
-Step 17: Adding the Petri Dish
 
-![Adding thermal paste](./Images/Screenshot_2025-10-20_at_4.57.51_PM.png)
-![Thermal paste smoothed out](./Images/Screenshot_2025-10-20_at_4.58.11_PM.png)
+<h2 align="center">Step 17: Adding the Petri Dish
+</h2>
+
+<p align="center">
+  <img src="./Images/Screenshot_2025-10-20_at_4.57.51_PM.png" width="700">
+</p>
+
+
+<p align="center">
+  <img src="./Images/Screenshot_2025-10-20_at_4.58.11_PM.png" width="700">
+</p>
 
         Put a more generous amount, double the amount you put before, but still an even layer of thermal paste on top of the 12709 Peltier.
         Press the back part of the petri dish against the top of the Peltier. 
@@ -328,10 +436,13 @@ Step 17: Adding the Petri Dish
                 ☐ You are ready to power on the cloud chamber
             If every box is checked, proceed to Step 18.
 
+<h2 align="center">Step 18: Testing Your Cloud Chamber!
+</h2>
 
-Step 18: Testing Your Cloud Chamber!
 
-![holder setup](./Images/cloud_cover.jpg)
+<p align="center">
+  <img src="./Images/cloud_cover.jpg" width="700">
+</p>
 
         ⚠️ Radioactive Source Safety
             Use only low-activity educational radioactive sources.
@@ -346,7 +457,10 @@ Step 18: Testing Your Cloud Chamber!
         Wait a little bit, and you should start seeing mist, and then particle tracks!!!!
         Make sure that if you lift the petri dish off the Peltier, you scrape the excess thermal paste off the dish and the Peltier, and even out the thermal paste before putting the petri dish back on.
 
-Step 19: Throw a party!!
+
+<h2 align="center">Step 19: Throw a party!!
+</h2>
+
 
                 Congratulations! 
                 After all the cutting, drilling, wiring, soldering, troubleshooting, and waiting, your cloud chamber is finally complete!
