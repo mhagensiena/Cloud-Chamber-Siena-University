@@ -473,7 +473,12 @@ To make this easier, use the solder to make small droplets on top of the LED str
 Then press the wires into the droplet and cover them with more solder.
 Once the wires are connected to the LEDs, wrap the connection in electrical tape.
 To make sure the connection is secure, turn on the cloud chamber and see if the lights turn on.
-Next, take Black wire 6 and Red wire 2,  and two extra, spare thin wires. Strip ½ inch off of each wire. Take one of the spare wires and attach it to Black wire 6 using a lever nut and do the same thing with the other spare wire and Red wire 2. Take the extension of red wire 2 and put the wire into the other 4 pin connector connected to the fan and put it into the slot with the arrow pointing down. To have a Green light inside the fan insert the extension of Black wire 6 in the slot directly next to the red wire. For Red lights take Black wire 6 and insert it into the middle remaining slot so that there is a slot in between the black and red wires. For Blue Lights insert Black wire 6 into the slot furthest away from Red wire 2.  Once the desired color is picked take electrical tape and wrap it around the plastic piece and the wires ensuring that no exposed wires are touching. 
+
+<p align="center">
+  <img src="./Images/fanlights.png" width="700">
+</p>
+
+Next, take Black wire 6 and Red wire 2,  and two extra, spare thin wires. Strip ½ inch off of each wire. Take one of the spare wires and attach it to Black wire 6 using a lever nut and do the same thing with the other spare wire and Red wire 2. Take the extension of red wire 2 and put the wire into the other 4-pin connector connected to the fan, and put it into the slot with the arrow pointing down. To have a Green light inside the fan, insert the extension of the black wire 6 in the slot directly next to the red wire. For Red lights, take Black wire 6 and insert it into the middle remaining slot so that there is a slot in between the black and red wires. For Blue Lights, insert Black wire 6 into the slot furthest away from Red wire 2.  Once the desired color is picked take electrical tape and wrap it around the plastic piece and the wires ensuring that no exposed wires are touching. 
         
 Step 16 Checkpoint:
 Before continuing:
