@@ -9,8 +9,8 @@ Step 2: Placing Edging Around the Board (Optional, but Recommended!)
 
 ![step 2.1](./Images/frame1.jpg)
 ![Step 2.2](./Images/frame2.jpg)
-![Step 2.3](./Images/frame3.webp)
-![Step 2.4](./Images/frame4.webp)
+![Step 2.3](./Images/frame4.webp)
+![Step 2.4](./Images/frame3.webp)
 ![Step 2.5](./Images/frame5.webp)
 
 
@@ -74,10 +74,11 @@ Step 6: Preparing the Petri Dish
 Step 7: Cutting and Gluing Chamois Cloth Onto Petri Dish
 
 ![chamois cloth](./Images/chamois_1.jpg)
-![chamois cloth](./Images/chamois_5.jpg)
-![chamois cloth](./Images/chamois2.jpg)
 ![chamois cloth](./Images/chmois_4.jpg)
 ![chamois cloth](./Images/chamois_3.jpg)
+![chamois cloth](./Images/chamois2.jpg)
+![chamois cloth](./Images/chamois_5.jpg)
+
 
 
 
