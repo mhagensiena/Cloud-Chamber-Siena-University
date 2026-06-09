@@ -12,11 +12,11 @@ Everything required to build the Siena University Cloud Chamber.
 <h2 align="center">Quick Navigation</h2>
 
 <p align="center"> •
-  <a href="wood--hardware">wood--hardware</a> •
-  <a href="electrical-components">electrical-components</a> •
-  <a href="cooling-components">cooling-components</a> •
-  <a href="chamber-components">chamber-components</a> •
-  <a href="recommended-tools">recommended-tools</a> •
+  <a href="#wood--hardware">wood--hardware</a> •
+  <a href="#electrical-components">electrical-components</a> •
+  <a href="#cooling-components">cooling-components</a> •
+  <a href="#chamber-components">chamber-components</a> •
+  <a href="#recommended-tools">recommended-tools</a> •
 </p>
 
 ---
