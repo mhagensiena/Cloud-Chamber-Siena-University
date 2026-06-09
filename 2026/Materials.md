@@ -9,16 +9,19 @@ Everything required to build the Siena University Cloud Chamber.
 ---
 
 ## Quick Navigation
+<h2 align="center">Quick Navigation</h2>
 
-* [Wood & Hardware](#wood--hardware)
-* [Electrical Components](#electrical-components)
-* [Cooling Components](#cooling-components)
-* [Chamber Components](#chamber-components)
-* [Recommended Tools](#recommended-tools)
+<p align="center"> •
+  <a href="wood--hardware">wood--hardware</a> •
+  <a href="electrical-components">electrical-components</a> •
+  <a href="cooling-components">cooling-components</a> •
+  <a href="chamber-components">chamber-components</a> •
+  <a href="recommended-tools">recommended-tools</a> •
+</p>
 
 ---
 
-<h2 id="wood--hardware" align="center">🪵 Wood & Hardware</h2>
+<h2 id="wood--hardware" align="center">Wood & Hardware</h2>
 
 | Component                               | Qty       | Purchase Link                                                                                                                                               |
 | --------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -32,11 +35,11 @@ Everything required to build the Siena University Cloud Chamber.
 | Cable Clamp                             | 1         | [Amazon](https://www.amazon.com/Cable-Lokman-Stainless-Rubber-Cushioned/dp/B01N0750PI)                                                                      |
 | Black Spray Paint                       | 1 Can     | [Walmart](https://www.walmart.com/ip/488512581)                                                                                                             |
 
-<p align="right"><a href="#top">⬆ Back to Top</a></p>
+<p align="right"><a href="#top"> Back to Top</a></p>
 
 ---
 
-<h2 id="electrical-components" align="center">⚡ Electrical Components</h2>
+<h2 id="electrical-components" align="center"> Electrical Components</h2>
 
 | Component                                   | Qty       | Purchase Link                                                                                 |
 | ------------------------------------------- | --------- | --------------------------------------------------------------------------------------------- |
@@ -48,11 +51,11 @@ Everything required to build the Siena University Cloud Chamber.
 | Thin Wire                                   | As Needed | Existing Supply                                                                               |
 | Electrical Tape                             | 1 Roll    | [Lowes](https://www.lowes.com/pd/Scotch-700-Electrical-Tape-66-ft/50148224)                   |
 
-<p align="right"><a href="#top">⬆ Back to Top</a></p>
+<p align="right"><a href="#top"> Back to Top</a></p>
 
 ---
 
-<h2 id="cooling-components" align="center">❄️ Cooling Components</h2>
+<h2 id="cooling-components" align="center"> Cooling Components</h2>
 
 | Component                                    | Qty    | Purchase Link                                                                                    |
 | -------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------ |
@@ -61,11 +64,11 @@ Everything required to build the Siena University Cloud Chamber.
 | TEC1-12710 Peltier Module                    | 1      | Existing / Retailer                                                                              |
 | Arctic Silver 5 or Arctic MX-5 Thermal Paste | 1 Tube | [Amazon](https://www.amazon.com/Arctic-Silver-AS5-3-5G-Thermal-Paste/dp/B000OGX5AM)              |
 
-<p align="right"><a href="#top">⬆ Back to Top</a></p>
+<p align="right"><a href="#top"> Back to Top</a></p>
 
 ---
 
-<h2 id="chamber-components" align="center">🔬 Chamber Components</h2>
+<h2 id="chamber-components" align="center"> Chamber Components</h2>
 
 | Component                | Qty       | Purchase Link                                                                            |
 | ------------------------ | --------- | ---------------------------------------------------------------------------------------- |
@@ -76,11 +79,11 @@ Everything required to build the Siena University Cloud Chamber.
 | Super Glue               | 1         | Local Retailer                                                                           |
 | Washers                  | As Needed | Hardware Store                                                                           |
 
-<p align="right"><a href="#top">⬆ Back to Top</a></p>
+<p align="right"><a href="#top"> Back to Top</a></p>
 
 ---
 
-<h2 id="recommended-tools" align="center">🛠️ Recommended Tools</h2>
+<h2 id="recommended-tools" align="center"> Recommended Tools</h2>
 
 * Drill
 * Assorted Drill Bits
