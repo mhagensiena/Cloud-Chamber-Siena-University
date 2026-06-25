@@ -211,10 +211,6 @@ It is recommended to make a hexagon around the edges, ensuring that there is a c
 </p>
 
 
-<p align="center">
-<a href="#top"> Back to Top</a>
-</p>
-
 <h2 id="step8" align="center">Step 8: Converting the Power Supply
 </h2>
 
