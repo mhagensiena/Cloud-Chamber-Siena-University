@@ -277,7 +277,7 @@ Once the 24 pin connector is labled, connect it to the powersupple cable. Lable 
 
 
 <p align="center">
-  <img src="./Images/SGreen_and_black_wire_2_twisted.heic" width="700">
+  <img src="./Images/Green_and_black_wire_2_twisted.heic" width="700">
 </p>
 
 
