@@ -26,7 +26,6 @@ Step-by-Step Guide for Assembling and Testing Siena University's 2026 Cloud Cham
   <a href="#step16">Step 16</a> •
   <a href="#step17">Step 17</a> •
   <a href="#step18">Step 18</a> •
-  <a href="#step19">Step 19</a> •
   <a href="./Troubleshooting.md">🔧 Troubleshooting</a>
 </p>
 
@@ -211,21 +210,12 @@ It is recommended to make a hexagon around the edges, ensuring that there is a c
 <a href="#top"> Back to Top</a>
 </p>
 
-<h2 align="center">Step 8: Mounting the D6SEC Fan
-</h2>
-
-
-(link ot images)
-
-Put the #6-32 x 3/4 through the holes you see on the bottom of the fan when the fan is facing you. 
-Very carefully place the fan into the 3D printed mount with the screws coming out of the slits in the mount, then secure the fan into the mount by screwing the wing nuts onto the screws. 
-With the power supply and the fan mounted, your cloud chamber should look like the photo above so far.
 
 <p align="center">
 <a href="#top"> Back to Top</a>
 </p>
 
-<h2 id="step9" align="center">Step 9: Converting the Power Supply
+<h2 id="step8" align="center">Step 8: Converting the Power Supply
 </h2>
 
 
@@ -272,7 +262,7 @@ Once the 24 pin connector is labled, connect it to the powersupple cable. Lable 
 </p>
 
 
-<h2 id="step10" align="center">Step 2:Step 10: Connecting/Soldering Wires Together
+<h2 id="step9" align="center">Step 9: Connecting/Soldering Wires Together
 </h2>
 
 
@@ -308,7 +298,7 @@ Make sure the sponge on the stand of the soldering iron is damp, and make sure t
 Once the power supply shows that the soldering iron is finished heating up, hold the solder up to the connection of the wires and the soldering iron, and melt the solder onto the connection. 
 Make sure the solder covers the exposed wire completely. Once you are done, wrap this connection with electrical tape.
         
-Step 10 Checkpoint:
+Step 9 Checkpoint:
 Before continuing:
 - [ ] The power supply turns on.
 - [ ] The fan spins when power is applied.
@@ -320,7 +310,7 @@ If all boxes are checked, continue to the next step.
 <a href="#top"> Back to Top</a>
 </p>
 
-<h2 id="step11" align="center">Step 11: Connect Hyper 212 RGB to Power Supply
+<h2 id="step10" align="center">Step 10: Connect Hyper 212 RGB to Power Supply
 </h2>
 
 <p align="center">
@@ -335,7 +325,7 @@ To use the lever nut connectors to connect the spare wires to the labeled ones, 
 Do the same with the other wires on the other end. 
 Plug the extended Black Wire 1 into the far left slot on the adaptor port connected to the Hyper 212 RGB fan, then plug one of the extended Yellow Wires 1 into the slot directly next to Black Wire 1 (middle left) and leave the other extended yellow wire one out. 
       
-Step 11 Checkpoint:
+Step 10 Checkpoint:
 Before continuing:
 - [ ] The Hyper 212 RGB fan turns on.
 - [ ] Black Wire 1 is connected correctly.
@@ -347,7 +337,7 @@ Before continuing:
 <a href="#top"> Back to Top</a>
 </p>
 
-<h2 id="step12" align="center">Step 12: Testing Peltiers
+<h2 id="step11" align="center">Step 11: Testing Peltiers
 </h2>
  
 
@@ -375,7 +365,7 @@ During this process, make sure the ice is not melting enough that the water is c
 A working Peltier should reach negative values across the surface  as you get closer to the voltage.
 We use the aluminum block to make sure we don't burn out the Peltier while testing it. 
         
-Step 12 Checkpoint
+Step 11 Checkpoint
 Before continuing:
 - [ ] TEC1-12710 reaches a temperature below room temperature.
 - [ ] TEC1-12709 reaches a temperature below room temperature.
@@ -409,7 +399,7 @@ Plug in your power supply with no wires touching. If the top of the peltier is c
 Take the 12709 Peltier, positioned with the black wire on the left and red on the right. Connect the red wire from the peltier and red wire 1. Connect the Black wire and Black wire 4.
 Apply a thin layer to the top of the 12710 Peltier and press the 12709 on top of it with the red wire on the right and the black wire on the left. 
         
-Step 13 Checkpoint:
+Step 12 Checkpoint:
 Before continuing:
 - [ ] TEC1-12710 becomes cold when powered.
 - [ ] TEC1-12709 becomes cold when powered.
@@ -423,7 +413,7 @@ If all boxes are checked, continue to the next step.
 <a href="#top"> Back to Top</a>
 </p>
 
-<h2 id="step14" align="center">Step 14: Attach 3D Printed LED Holder
+<h2 id="step13" align="center">Step 13: Attach 3D Printed LED Holder
 </h2>
 
 
@@ -444,7 +434,7 @@ Use the pictures for reference.
 <a href="#top"> Back to Top</a>
 </p>
 
-<h2 id="step15" align="center">Step 15: Add Insulation
+<h2 id="step14" align="center">Step 14: Add Insulation
 </h2>
  
 
@@ -462,7 +452,7 @@ It should be a little less than 0.25 inches. Using the technique shown in the vi
 <a href="#top"> Back to Top</a>
 </p>
   
-<h2 id="step16" align="center">Step 16: Connect LEDs
+<h2 id="step15" align="center">Step 15: Connect LEDs
 </h2>        
 
       
@@ -487,7 +477,7 @@ To make sure the connection is secure, turn on the cloud chamber and see if the 
 
 Next, take Black wire 6 and Red wire 2,  and two extra, spare thin wires. Strip ½ inch off of each wire. Take one of the spare wires and attach it to Black wire 6 using a lever nut and do the same thing with the other spare wire and Red wire 2. Take the extension of red wire 2 and put the wire into the other 4-pin connector connected to the fan, and put it into the slot with the arrow pointing down. To have a Green light inside the fan, insert the extension of the black wire 6 in the slot directly next to the red wire. For Red lights, take Black wire 6 and insert it into the middle remaining slot so that there is a slot in between the black and red wires. For Blue Lights, insert Black wire 6 into the slot furthest away from Red wire 2.  Once the desired color is picked take electrical tape and wrap it around the plastic piece and the wires ensuring that no exposed wires are touching. 
         
-Step 16 Checkpoint:
+Step 15 Checkpoint:
 Before continuing:
 - [ ] LED strip illuminates.
 - [ ] Fan LEDs illuminate.
@@ -543,7 +533,7 @@ If every box is checked, proceed to Step 18.
 </p>
 
 
-<h2 id="step18" align="center">Step 18: Testing Your Cloud Chamber!
+<h2 id="step17" align="center">Step 17: Testing Your Cloud Chamber!
 </h2>
 
 
@@ -569,7 +559,7 @@ Make sure that if you lift the petri dish off the Peltier, you scrape the excess
 <a href="#top"> Back to Top</a>
 </p>
 
-<h2 id="step19" align="center">Step 19: Throw a party!!
+<h2 id="step18" align="center">Step 18: Throw a party!!
 </h2>
 
 
