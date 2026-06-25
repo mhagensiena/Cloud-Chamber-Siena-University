@@ -238,6 +238,11 @@ With the power supply and the fan mounted, your cloud chamber should look like t
   <img src="./Images/Converting_power_supply.jpg" width="700">
 </p>
 
+<p align="center">
+  <img src="./Images/IMG_5005.HEIC" width="700">
+</p>
+
+
 > [!WARNING] Electrical Safety
 > 
 > - Always unplug the power supply before modifying any wiring.
@@ -259,6 +264,8 @@ Cut off the plastic part of the 24-pin connector that isn't attached to the powe
 Take masking tape and label each wire using the picture above as a reference.
 Do not cut the extra wires until the cloud chamber is completely assembled, just in case you make a mistake and need to use different wires.
 It doesn't matter which black or yellow wires you use; they carry the same voltage.
+
+Once the 24 pin connector is labled, connect it to the powersupple cable. Lable the wires coming from the power supply the same way the 24 pin connector is. It is ok that some connections have 2 wires going to one pin, in this case insure that both wires remain together by wraping tape around both wires when labling. Once all wires are coming from the powersupply are properly labled cut the plastic 24 pin connector pice off. Later on the wires will be cut down to appropreate size. 
         
 <p align="center">
 <a href="#top"> Back to Top</a>
