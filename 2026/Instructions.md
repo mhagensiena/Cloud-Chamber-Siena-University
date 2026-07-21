@@ -280,12 +280,8 @@ Once the 24 pin connector is labled, connect it to the powersupple cable. Lable 
 > - Wear safety glasses if available.
     
 > [!WARNING]: It's really important to do this part correctly, otherwise the power supply will not turn on, or you could brick the power supply.
-Strip the ends of Black Wire 2 and Green Wire 1. Solder the ends of Black wire 2 and Green wire 1 together. Wrap this connection with electrical tape.
-If you've never soldered wires together, not to worry! Use this link for an example.
-https://youtube.com/shorts/2N6uXyUPfgA?feature=shared
-  
-Next, you will get two spare thin wires and split them. If you have never split a wire, here is a link for an example.
-https://www.youtube.com/watch?v=KpiEfuhPqew 
+If you have never soldered before watch this qucik tortoral video beofre continuning.
+> https://www.youtube.com/watch?v=Qps9woUGkvI
         
 ### How To Solder Wires: 
 Before soldering your wires, twist the ends of the wires together as shown in the photo. 
@@ -293,7 +289,15 @@ Then make sure they are set up using the clips on the Helping Hands (yellow stan
 Make sure the sponge on the stand of the soldering iron is damp, and make sure to heat up the soldering iron to approximately 800 degrees Celsius.
 Once the power supply shows that the soldering iron is finished heating up, hold the solder up to the connection of the wires and the soldering iron, and melt the solder onto the connection. 
 Make sure the solder covers the exposed wire completely. Once you are done, wrap this connection with electrical tape.
-        
+
+Strip the ends of Black Wire 2 and Green Wire 1. Solder the ends of Black wire 2 and Green wire 1 together. Wrap this connection with electrical tape.
+If you've never soldered wires together, not to worry! Use this link for an example.
+https://youtube.com/shorts/2N6uXyUPfgA?feature=shared
+  
+Next, you will get two spare thin wires and split them. If you have never split a wire, here is a link for an example.
+https://www.youtube.com/watch?v=KpiEfuhPqew 
+
+
 Step 9 Checkpoint:
 Before continuing:
 - [ ] The power supply turns on.
@@ -313,12 +317,15 @@ If all boxes are checked, continue to the next step.
   <img src="./Images/Screenshot_2025-10-20_at_4.38.48_PM.png" width="700">
 </p>
 
-Take a photo of the wiring of the fan!!!!
 
 Find Black Wire 1 and Yellow Wire 1, and one spare, thinner wire, and the wires you soldered together. 
 Strip the two thin wires 1/2 of an inch on one end and 1 inch on the other.
+The back wire will be sauter together with a singular spare. The Two yellow wires will be sautred to the split wires on the bottom end of the wire, leaving the two split ends exposed. 
+
+For lever nuts-
 To use the lever nut connectors to connect the spare wires to the labeled ones, pull up the orange tab on one end, put the stripped part of the wire inside, and push the orange tab down until the wire is secure in the connector (The end with one wire from the wires you soldered previously should be connected to the yellow wire 1). 
 Do the same with the other wires on the other end. 
+
 Plug the extended Black Wire 1 into the far left slot on the adaptor port connected to the Hyper 212 RGB fan, then plug one of the extended Yellow Wires 1 into the slot directly next to Black Wire 1 (middle left) and leave the other extended yellow wire one out. 
       
 Step 10 Checkpoint:
@@ -455,13 +462,13 @@ It should be a little less than 0.25 inches. Using the technique shown in the vi
 Take the LED Strip lights and cut them to 16" or at a point that is relatively that size, where it is instructed for you to cut.
 Slide the end of the LED strip lights into the connector. 
 Make sure the metal arms in the connector are completely on top of the copper connections in the strip lights.
-Tightly twist and bend the ends of Black wire 5 and Yellow wire 3. Use small pliers to carefully pull up the metal pins of the LED connector. 
+Tightly twist and bend the ends of Black wire 5 and the other erxtended portion of Yellow wire 3. Use small pliers to carefully pull up the metal pins of the LED connector. 
 Slide the black wire 5 under the negative connection's metal pin, and use the wire stripper to push down the pin onto the wire. 
 Do the same to connect Yellow wire 3 to the positive connection. 
        
         
 Alternative:
-Solder black wire 5 to the negative connection of the LED and yellow wire 3 to the positive connection of the LED strip. 
+Solder black wire 5 to the negative connection of the LED and the extended wire of yellow wire 3 to the positive connection of the LED strip. 
 To make this easier, use the solder to make small droplets on top of the LED strip at the connection point. 
 Then press the wires into the droplet and cover them with more solder.
 Once the wires are connected to the LEDs, wrap the connection in electrical tape.
