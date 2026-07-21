@@ -225,7 +225,7 @@ It is recommended to make a hexagon around the edges, ensuring that there is a c
 </p>
 
 <p align="center">
-  <img src="./Images/IMG_5005.HEIC" width="700">
+  <img src="IMG_5005.jpeg" width="700">
 </p>
 
 
@@ -261,14 +261,8 @@ Once the 24 pin connector is labled, connect it to the powersupple cable. Lable 
 <h2 id="step9" align="center">Step 9: Connecting/Soldering Wires Together
 </h2>
 
-
 <p align="center">
-  <img src="./Images/Green_and_black_wire_2_twisted.heic" width="700">
-</p>
-
-
-<p align="center">
-  <img src="./Images/Green_Black_sautered.heic" width="700">
+  <img src="Green_Black_sautered.jpeg" width="700">
 </p>
 
 > [!WARNING] Soldering Safety:
