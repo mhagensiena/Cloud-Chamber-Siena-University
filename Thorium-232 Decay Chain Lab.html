@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thorium-232 Decay Chain Lab</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#e8eef3;--card:#f8fafc;--ink:#14202e;--mute:#53606f;--line:#c9d4de;--acc:#0b6f6a;--accink:#fff;--p:#ef5b2f;--n:#7aa3b6;--e:#1d4ed8;--a:#7c3aed;--stage:#0c1422;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1118;--card:#141c27;--ink:#e6ebf2;--mute:#9aa7b8;--line:#2a3646;--acc:#3dc2b8;--accink:#06201e;--e:#6ea0ff;--a:#b99bff}}
+:root[data-theme="dark"]{--bg:#0b1118;--card:#141c27;--ink:#e6ebf2;--mute:#9aa7b8;--line:#2a3646;--acc:#3dc2b8;--accink:#06201e;--e:#6ea0ff;--a:#b99bff}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Atkinson Hyperlegible",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.15;margin:0}
+header{padding:28px 20px 8px;max-width:1180px;margin:auto}
+h1{font-size:clamp(28px,4.4vw,44px);letter-spacing:-.02em}
+header p{margin:8px 0 0;color:var(--mute);max-width:70ch}
+main{max-width:1180px;margin:auto;padding:12px 20px 40px;display:grid;gap:18px}
+.g{display:grid;gap:18px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:940px){.g{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}}
+.c{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+h2{font-size:21px;margin-bottom:10px}
+canvas{width:100%;height:auto;display:block;background:var(--stage);border-radius:10px}
+.lg{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px;color:var(--mute);margin:8px 0}
+.lg i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+.ro{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px;margin:10px 0 4px}
+.ro b{font:700 34px "Bricolage Grotesque",sans-serif}
+.ro span{font-variant-numeric:tabular-nums}
+.nx{font-size:15px;color:var(--mute);margin:0 0 10px}
+.ct{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button{font:700 16px inherit;font-family:inherit;border:0;border-radius:8px;padding:10px 16px;cursor:pointer;background:var(--acc);color:var(--accink)}
+button.s{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+button:disabled{opacity:.45;cursor:not-allowed}
+button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid var(--e);outline-offset:2px}
+label{font-size:15px;display:flex;gap:6px;align-items:center}
+.msg{margin:12px 0 0;padding:12px 14px;border-left:4px solid var(--acc);background:color-mix(in srgb,var(--acc) 9%,transparent);border-radius:0 8px 8px 0;min-height:3.4em}
+svg{width:100%;height:auto;display:block}
+.tk{font-size:10px;fill:var(--mute)}.ax{font-size:12px;fill:var(--ink)}
+.bx{fill:var(--card);stroke:var(--line)}.cu{stroke:var(--acc);stroke-width:3}
+.bar{position:relative;height:16px;background:var(--line);border-radius:8px;margin:4px 0 14px;overflow:hidden}
+.bar i{position:absolute;left:0;top:0;bottom:0;border-radius:8px}
+.scale{display:flex;justify-content:space-between;font-size:13px;color:var(--mute)}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:640px;font-size:15px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+th{font-weight:700;color:var(--mute)}
+ol,ul{margin:0;padding-left:22px}li{margin:6px 0}
+.t2{display:grid;gap:18px;grid-template-columns:minmax(0,1fr)}@media(min-width:940px){.t2{grid-template-columns:1fr 1fr}}
+summary{cursor:pointer;font:700 21px "Bricolage Grotesque",sans-serif}
+small,.fn{color:var(--mute);font-size:14px}
+</style></head><body>
+<header>
+<h1>Thorium-232 decay chain lab</h1>
+<p>Watch one thorium-232 nucleus change, step by step, until it becomes stable lead. Use what you see to build your own model of alpha, beta, and gamma decay. Aligned to NYSSLS HS-PS1-8.</p>
+</header>
+<main>
+<div class="g">
+<section class="c" aria-label="Nucleus simulation">
+<h2>The nucleus</h2>
+<canvas id="cv" width="520" height="420" role="img" aria-label="Animated nucleus showing protons and neutrons"></canvas>
+<div class="lg"><span><i style="background:#ef5b2f"></i>proton</span><span><i style="background:#7aa3b6"></i>neutron</span><span><i style="background:#3b82f6"></i>electron</span><span><i style="background:#cbd5e1"></i>antineutrino</span><span><i style="background:#facc15"></i>gamma ray</span></div>
+<div class="ro"><b id="nm"></b><span>Protons <b id="zz" style="font-size:20px"></b></span><span>Neutrons <b id="nn" style="font-size:20px"></b></span><span>Mass number <b id="aa" style="font-size:20px"></b></span></div>
+<p class="nx">Half-life: <span id="hl"></span>. Next decay: <span id="nx"></span></p>
+<div class="ct">
+<button id="bD">Decay</button>
+<span id="pb" class="ct" hidden><button id="pA">Predict alpha (α)</button><button id="pB">Predict beta (β⁻)</button><button id="pH" class="s">Hint</button></span>
+<button id="bA" class="s">Auto-run</button><button id="bR" class="s">Reset</button>
+<label><input type="checkbox" id="pred">Predict first</label>
+</div>
+<p class="msg" id="msg" aria-live="polite"></p>
+</section>
+<div style="display:grid;gap:18px;align-content:start">
+<section class="c"><h2>Where the nucleus is on the map</h2>
+<div id="ch"></div>
+<p class="fn">Each box is one kind of nucleus. Purple lines are alpha decays, blue lines are beta decays. The map fills in as the nucleus decays.</p></section>
+<section class="c"><h2>Energy released</h2><div id="en"><p class="fn">Run a decay to compare its energy with a chemical reaction.</p></div></section>
+</div></div>
+
+<section class="c"><h2>Decay ledger</h2>
+<p class="fn" style="margin:-4px 0 8px">Every decay you run is recorded here. Look for patterns in the numbers.</p>
+<div class="tw"><table><thead><tr><th>Step</th><th>Parent to daughter</th><th>Emitted</th><th>Protons</th><th>Neutrons</th><th>Mass number</th><th>Energy released</th></tr></thead><tbody id="tb"></tbody></table></div></section>
+
+<div class="t2">
+<section class="c"><h2>Build your model</h2>
+<ol>
+<li>Turn on Predict first. For Th-232, which kind of decay do you expect, and why?</li>
+<li>Run the whole chain. In the ledger, find what happens to protons, neutrons, and mass number in an alpha decay and in a beta decay.</li>
+<li>Sketch a before and after nucleus for one alpha decay and one beta decay. Label the particle that leaves.</li>
+<li>A gamma ray follows some decays. What changes in the nucleus when it leaves, and what does not?</li>
+<li>Bismuth-212 can decay two ways. Reset and run the chain again to find the other path. Where do both paths end?</li>
+<li>Compare the energy bar for a decay with a chemical reaction. What does that say about the forces inside a nucleus?</li>
+</ol></section>
+<section class="c"><details open><summary>Notes for teachers</summary>
+<ul>
+<li><b>Standard.</b> HS-PS1-8 asks students to develop models of how the nucleus changes, and the energy released, in fission, fusion, and radioactive decay. This lab covers radioactive decay only (alpha, beta, and gamma). Pair it with a separate model for fission and fusion.</li>
+<li><b>Practice.</b> Developing and using models. Students predict, observe, then write their own rules from the ledger instead of being told them.</li>
+<li><b>Concept.</b> Energy and matter: total mass number and charge are conserved in every step.</li>
+<li><b>Energy is qualitative.</b> The log bar shows scale only. No energy calculations are needed.</li>
+<li><b>Limits of the model.</b> Nucleons are drawn as simple balls and are not to scale. Steps do not run in real time, since half-lives range from billions of years to under a microsecond.</li>
+</ul></details></section>
+</div>
+<p class="fn">Half-lives and decay energies are rounded values from standard nuclear data tables. Gamma rays are shown for the decays where they are especially common.</p>
+</main>
+<script>
+const SYM={90:'Th',89:'Ac',88:'Ra',86:'Rn',84:'Po',83:'Bi',82:'Pb',81:'Tl'};
+const NAME={Th:'Thorium',Ac:'Actinium',Ra:'Radium',Rn:'Radon',Po:'Polonium',Bi:'Bismuth',Pb:'Lead',Tl:'Thallium'};
+const D={Th232:[90,232,'14 billion years',[['a',4.08,1]]],Ra228:[88,228,'5.75 years',[['b',0.046,1]]],Ac228:[89,228,'6.15 hours',[['b',2.1,1,1]]],Th228:[90,228,'1.91 years',[['a',5.52,1]]],Ra224:[88,224,'3.63 days',[['a',5.79,1]]],Rn220:[86,220,'55.6 seconds',[['a',6.41,1]]],Po216:[84,216,'0.145 seconds',[['a',6.91,1]]],Pb212:[82,212,'10.6 hours',[['b',0.57,1,1]]],Bi212:[83,212,'60.6 minutes',[['b',2.25,.64],['a',6.21,.36]]],Po212:[84,212,'0.3 microseconds',[['a',8.95,1]]],Tl208:[81,208,'3.05 minutes',[['b',5.0,1,1]]],Pb208:[82,208,'stable, it does not decay',[]]};
+const key=(z,a)=>SYM[z]+a,$=id=>document.getElementById(id),cv=$('cv'),cx=cv.getContext('2d'),CX=260,CY=210;
+let cur,parts,out,log,seen,glow=0,busyUntil=0,auto=null,seed=7,last=0,hintN=0;
+const rng=()=>(seed=(seed*1664525+1013904223)>>>0)/4294967296;
+const tgt=i=>{const r=6.3*Math.sqrt(i+.5),t=i*2.39996;return[CX+r*Math.cos(t),CY+r*Math.sin(t)]};
+const busy=()=>performance.now()<busyUntil,avg=a=>a.reduce((s,v)=>s+v,0)/a.length;
+const lab=(k,z)=>`${NAME[SYM[z]]}-${k}`;
+function say(t){$('msg').textContent=t}
+function reset(){
+ clearInterval(auto);auto=null;$('bA').textContent='Auto-run';seed=7;hintN=0;cur='Th232';const[z,a]=D[cur],t=[];
+ for(let i=0;i<a;i++)t.push(i<z?'p':'n');
+ for(let i=t.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[t[i],t[j]]=[t[j],t[i]]}
+ parts=t.map((k,i)=>{const[x,y]=tgt(i);return{k,x,y}});out=[];log=[];seen=[cur];busyUntil=0;glow=0;
+ say('This is one thorium-232 nucleus: 90 protons and 142 neutrons. Press Decay, or turn on Predict first.');render();
+}
+function decay(o){
+ const[z,a]=D[cur],[ty,q,,g]=o,nz=ty=='a'?z-2:z+1,na=ty=='a'?a-4:a,nk=key(nz,na),th=Math.random()*6.283,now=performance.now();
+ if(ty=='a'){
+  let np=0,nn=0;const rm=[];
+  for(let i=parts.length-1;i>=0&&rm.length<4;i--){const k=parts[i].k;if(k=='p'&&np<2){np++;rm.push(i)}else if(k=='n'&&nn<2){nn++;rm.push(i)}}
+  const px=avg(rm.map(i=>parts[i].x)),py=avg(rm.map(i=>parts[i].y));
+  rm.sort((x,y)=>y-x).forEach(i=>parts.splice(i,1));
+  out.push({k:'a',x:px,y:py,vx:Math.cos(th)*240,vy:Math.sin(th)*240});
+ }else{
+  const idx=[];parts.forEach((p,i)=>{if(p.k=='n'&&i>parts.length*.4)idx.push(i)});
+  const p=parts[idx[Math.floor(Math.random()*idx.length)]];p.k='p';p.f=now;
+  out.push({k:'e',x:p.x,y:p.y,vx:Math.cos(th)*480,vy:Math.sin(th)*480},{k:'v',x:p.x,y:p.y,vx:Math.cos(th+2.4)*360,vy:Math.sin(th+2.4)*360});
+ }
+ if(g)setTimeout(()=>{const t2=Math.random()*6.283;glow=performance.now();out.push({k:'g',x:CX,y:CY,vx:Math.cos(t2)*700,vy:Math.sin(t2)*700})},700);
+ busyUntil=now+(g?2000:1500);hintN=0;
+ log.push({from:cur,to:nk,ty,q,g,z,nz,a,na,n:a-z,nn:na-nz});cur=nk;seen.push(nk);
+ let m=ty=='a'?`Alpha decay: the nucleus ejected 2 protons and 2 neutrons together, a helium-4 nucleus. Protons ${z} to ${nz}, mass number ${a} to ${na}. ${NAME[SYM[z]]} became ${NAME[SYM[nz]]}.`
+  :`Beta decay: a neutron turned into a proton and ejected an electron, plus a nearly undetectable antineutrino. Protons ${z} to ${nz}, neutrons ${a-z} to ${na-nz}, mass number stays ${a}. ${NAME[SYM[z]]} became ${NAME[SYM[nz]]}.`;
+ if(g)m+=' A gamma ray then carried away extra energy. The numbers of protons and neutrons did not change.';
+ if(!D[cur][3].length)m+=` ${NAME[SYM[nz]]}-${na} is stable, so the chain ends here.`;
+ say(m);render();
+}
+const pick=o=>{let r=Math.random(),s=0;for(const x of o){s+=x[2];if(r<s)return x}return o[o.length-1]};
+function step(){const o=D[cur][3];if(busy()||!o.length)return false;decay(pick(o));return true}
+function guess(ty){
+ const o=D[cur][3];if(busy()||!o.length)return;const f=o.find(x=>x[0]==ty);
+ if(f)decay(f);else say('Not this one. '+hint());
+}
+const HT={a:['Protons push each other apart, and the force that holds nucleons together only reaches close neighbors. Look at the mass number. What problem does a nucleus this big have?','Which kind of decay would make the nucleus smaller? Compare how many particles each type removes.'],b:['Big nuclei need extra neutrons to hold together, but too many neutrons is also a problem. Compare the neutrons and protons. Is the mix balanced?','Which decay keeps the total number of particles the same but turns one kind into the other?']};
+function hint(){const o=D[cur][3];if(!o.length)return'';if(o.length>1)return'This nucleus has two ways to fix its problem, so either guess can work. Try one, then reset and run the chain again to see the other.';const h=HT[o[0][0]];return hintN<h.length?h[hintN++]:'Still unsure? Make your best guess. A wrong guess costs nothing, and the ledger will show what really happens.'
+}
+function render(){
+ const[z,a,hl,o]=D[cur],s=SYM[z],p=$('pred').checked;
+ $('nm').textContent=`${NAME[s]}-${a}`;$('zz').textContent=z;$('nn').textContent=a-z;$('aa').textContent=a;$('hl').textContent=hl;
+ $('nx').textContent=!o.length?'none.':p?'?':o.map(x=>(x[0]=='a'?'alpha':'beta')+(o.length>1?` (${Math.round(x[2]*100)}%)`:'')).join(' or ');
+ $('bD').hidden=p;$('pb').hidden=!p;$('bD').disabled=!o.length;$('pA').disabled=$('pB').disabled=$('pH').disabled=!o.length;
+ chart();ledger();energy();
+}
+function chart(){
+ const W=26,L=44,T=14,N0=124,Z1=92,X=n=>L+(n-N0)*W,Y=z=>T+(Z1-z)*W;let s='';
+ for(let n=N0;n<=145;n++)s+=`<line x1="${X(n)}" y1="${T}" x2="${X(n)}" y2="${T+13*W}" stroke="var(--line)" stroke-width=".5"/>`;
+ for(let z=80;z<=93;z++)s+=`<line x1="${L}" y1="${Y(z)+W}" x2="${X(145)}" y2="${Y(z)+W}" stroke="var(--line)" stroke-width=".5"/>`;
+ for(let n=N0;n<=144;n+=2)s+=`<text x="${X(n)+W/2}" y="${T+13*W+14}" class="tk" text-anchor="middle">${n}</text>`;
+ for(let z=80;z<=92;z+=2)s+=`<text x="${L-6}" y="${Y(z)+W/2+3}" class="tk" text-anchor="end">${z}</text>`;
+ s+=`<text x="${L+10*W}" y="${T+13*W+32}" class="ax" text-anchor="middle">Neutrons (N)</text><text transform="translate(11 ${T+6.5*W}) rotate(-90)" class="ax" text-anchor="middle">Protons (Z)</text>`;
+ const C=(k,f)=>{const[z,a]=D[k];return f?X(a-z)+W/2:Y(z)+W/2};
+ log.forEach(e=>{s+=`<line x1="${C(e.from,1)}" y1="${C(e.from,0)}" x2="${C(e.to,1)}" y2="${C(e.to,0)}" stroke="var(${e.ty=='a'?'--a':'--e'})" stroke-width="3"/>`});
+ seen.forEach(k=>{const[z,a]=D[k],x=X(a-z),y=Y(z);s+=`<rect x="${x+1}" y="${y+1}" width="${W-2}" height="${W-2}" rx="4" class="bx ${k==cur?'cu':''}"/><text x="${x+W/2}" y="${y+12}" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ink)">${SYM[z]}</text><text x="${x+W/2}" y="${y+22}" text-anchor="middle" font-size="9" fill="var(--mute)">${a}</text>`});
+ $('ch').innerHTML=`<svg viewBox="0 0 600 392" role="img" aria-label="Map of protons versus neutrons showing the decay path so far">${s}</svg>`;
+}
+function ledger(){
+ $('tb').innerHTML=log.length?log.map((e,i)=>`<tr><td>${i+1}</td><td>${SYM[e.z]}-${e.a} to ${SYM[e.nz]}-${e.na}</td><td>${e.ty=='a'?'α, helium-4 nucleus':'β⁻, electron + antineutrino'}${e.g?' + γ':''}</td><td>${e.z} to ${e.nz}</td><td>${e.n} to ${e.nn}</td><td>${e.a} to ${e.na}</td><td>${e.q} MeV</td></tr>`).join(''):'<tr><td colspan="7" class="fn">No decays yet.</td></tr>';
+}
+function energy(){
+ if(!log.length){$('en').innerHTML='<p class="fn">Run a decay to compare its energy with a chemical reaction.</p>';return}
+ const q=log[log.length-1].q,ev=q*1e6,pc=v=>Math.log10(v)/7*100,r=Number((ev/3).toPrecision(2)).toLocaleString();
+ $('en').innerHTML=`<p style="margin:0">Chemical reaction, per molecule: about 3 eV</p><div class="bar"><i style="width:${pc(3)}%;background:var(--n)"></i></div><p style="margin:0">This decay: about ${q} MeV, or ${Math.round(ev).toLocaleString()} eV</p><div class="bar"><i style="width:${pc(ev)}%;background:var(--p)"></i></div><div class="scale"><span>1 eV</span><span>1 keV</span><span>1 MeV</span><span>10 MeV</span></div><p class="fn">Each step along this scale is 1,000 times more energy. This decay releases about ${r} times the energy of a typical chemical reaction.</p>`;
+}
+const ball=(x,y,r,c)=>{cx.fillStyle=c;cx.beginPath();cx.arc(x,y,r,0,6.2832);cx.fill();cx.strokeStyle='rgba(0,0,0,.35)';cx.lineWidth=.8;cx.stroke()};
+const txt=(t,x,y,c)=>{cx.fillStyle=c;cx.font='700 13px sans-serif';cx.fillText(t,x,y)};
+function frame(t){
+ const dt=Math.min(.05,(t-last)/1000);last=t;cx.clearRect(0,0,520,420);
+ const gl=Math.max(0,1-(t-glow)/900);
+ if(gl>0){const g=cx.createRadialGradient(CX,CY,10,CX,CY,160);g.addColorStop(0,`rgba(250,204,21,${.5*gl})`);g.addColorStop(1,'rgba(250,204,21,0)');cx.fillStyle=g;cx.fillRect(0,0,520,420)}
+ parts.forEach((p,i)=>{const[tx,ty]=tgt(i),k=Math.min(1,dt*6);p.x+=(tx-p.x)*k;p.y+=(ty-p.y)*k;ball(p.x,p.y,5.6,p.k=='p'?'#ef5b2f':'#7aa3b6');
+  if(p.f&&t-p.f<700){cx.strokeStyle=`rgba(96,165,250,${1-(t-p.f)/700})`;cx.lineWidth=2;cx.beginPath();cx.arc(p.x,p.y,6+(t-p.f)/40,0,6.3);cx.stroke()}});
+ out=out.filter(o=>{o.x+=o.vx*dt;o.y+=o.vy*dt;
+  if(o.k=='a'){[[-3.5,-3.5,'#ef5b2f'],[3.5,-3.5,'#7aa3b6'],[-3.5,3.5,'#7aa3b6'],[3.5,3.5,'#ef5b2f']].forEach(d=>ball(o.x+d[0],o.y+d[1],4.6,d[2]));txt('α',o.x+10,o.y-10,'#c4b5fd')}
+  else if(o.k=='e'){ball(o.x,o.y,3.8,'#3b82f6');txt('e⁻',o.x+7,o.y-7,'#93c5fd')}
+  else if(o.k=='v'){cx.strokeStyle='#cbd5e1';cx.setLineDash([3,3]);cx.beginPath();cx.arc(o.x,o.y,3.5,0,6.3);cx.stroke();cx.setLineDash([]);txt('ν̄',o.x+7,o.y-7,'#cbd5e1')}
+  else{const an=Math.atan2(o.vy,o.vx),c=Math.cos(an),s=Math.sin(an);cx.strokeStyle='#facc15';cx.lineWidth=2;cx.beginPath();for(let d=0;d<=44;d+=2){const w=7*Math.sin(d*.6-t/40);cx.lineTo(o.x-c*d-s*w,o.y-s*d+c*w)}cx.stroke();txt('γ',o.x+8,o.y-8,'#fde047')}
+  return o.x>-40&&o.x<560&&o.y>-40&&o.y<460});
+ requestAnimationFrame(frame);
+}
+$('bD').onclick=step;$('pA').onclick=()=>guess('a');$('pB').onclick=()=>guess('b');$('pH').onclick=()=>{if(!busy())say(hint())};$('pred').onchange=render;$('bR').onclick=reset;
+$('bA').onclick=()=>{if(auto){clearInterval(auto);auto=null;$('bA').textContent='Auto-run';return}
+ $('bA').textContent='Pause';auto=setInterval(()=>{if(!D[cur][3].length){clearInterval(auto);auto=null;$('bA').textContent='Auto-run'}else step()},500)};
+reset();requestAnimationFrame(frame);
+</script></body></html>
